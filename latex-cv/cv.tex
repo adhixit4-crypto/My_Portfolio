@@ -1,0 +1,190 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=1.35cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.94]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{microtype}
+
+\definecolor{DeepGreen}{HTML}{0C2824}
+\definecolor{Teal}{HTML}{0C7668}
+\definecolor{Accent}{HTML}{C9F27A}
+\definecolor{BodyGray}{HTML}{4F5D59}
+\definecolor{RuleGray}{HTML}{D6DDD8}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=Teal,
+  linkcolor=Teal,
+  pdfauthor={Adhixit Nandan Sharma},
+  pdftitle={Adhixit Nandan Sharma - Curriculum Vitae},
+  pdfsubject={Computer Science, Software and Data},
+  pdfkeywords={Python, R, SQL, Machine Learning, Data Analysis, Web Development}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{
+  leftmargin=1.25em,
+  itemsep=1.2pt,
+  topsep=2.5pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{7pt}
+  {\color{DeepGreen}\large\bfseries #1}\par
+  \vspace{2pt}
+  {\color{Teal}\rule{\linewidth}{1.2pt}}\par
+  \vspace{4pt}
+}
+
+\newcommand{\entrytitle}[1]{%
+  {\color{DeepGreen}\normalsize\bfseries #1}\par
+}
+
+\newcommand{\entrymeta}[1]{%
+  {\color{Teal}\small\bfseries #1}\par
+}
+
+\newcommand{\bodytext}[1]{%
+  {\color{BodyGray}\small #1}\par
+}
+
+\newcommand{\skillrow}[2]{%
+  {\small\bfseries #1} & {\small\color{BodyGray} #2}\\[3pt]
+}
+
+\begin{document}
+
+\begin{minipage}[c]{0.76\textwidth}
+  {\fontsize{25}{28}\selectfont\bfseries\color{DeepGreen} Adhixit Nandan Sharma}\par
+  \vspace{4pt}
+  {\large\bfseries\color{Teal} Computer Science Student | Aspiring Software \& Data Professional}\par
+  \vspace{8pt}
+  {\small\color{BodyGray}
+    Berlin, Germany \quad | \quad
+    \href{tel:+4915232707376}{+49 152 32707376}
+  }\par
+  \vspace{3pt}
+  {\small
+    \href{mailto:sharmaadhixitnandan@gmail.com}{sharmaadhixitnandan@gmail.com}
+    \quad | \quad
+    \href{https://www.linkedin.com/in/adhixit-nandan-sharma-62b874394}{LinkedIn}
+    \quad | \quad
+    \href{https://github.com/adhixit4-crypto}{GitHub}
+  }
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.19\textwidth}
+  \raggedleft
+  \fcolorbox{RuleGray}{white}{%
+    \includegraphics[width=2.55cm,height=3.25cm,keepaspectratio]{images/profile.jpg}%
+  }
+\end{minipage}
+
+\vspace{8pt}
+{\color{DeepGreen}\rule{\textwidth}{2pt}}
+
+\sectiontitle{Professional Summary}
+\bodytext{Computer Science student with academic experience in Artificial Intelligence, Machine Learning, Applied Statistical Modelling, Python, SQL, R, and web technologies. Familiar with Jupyter Notebook, GitHub, database tools, and data-analysis workflows. Professional delivery and logistics experience has strengthened my organisation, time management, customer service, problem-solving, and independent-working skills.}
+
+\vspace{4pt}
+\begin{minipage}[t]{0.625\textwidth}
+  \sectiontitle{Academic Projects}
+
+  \entrytitle{Artificial Intelligence \& Machine Learning - Loan Data Analysis}
+  \entrymeta{Python | Jupyter Notebook | Machine Learning}
+  \begin{itemize}
+    \small\color{BodyGray}
+    \item Worked with a loan dataset through a notebook-based academic workflow.
+    \item Organised data and project files, executed analysis, and documented findings.
+    \item Used Python tools for data preparation and machine-learning coursework.
+  \end{itemize}
+  {\footnotesize\href{https://github.com/adhixit4-crypto/B104-Artificial-Intelligence-and-Machine-Learning}{github.com/adhixit4-crypto/B104-Artificial-Intelligence-and-Machine-Learning}}\par
+
+  \vspace{6pt}
+  \entrytitle{Applied Statistical Modelling - Bank Marketing Analysis}
+  \entrymeta{R | Microsoft Excel | Statistical Modelling}
+  \begin{itemize}
+    \small\color{BodyGray}
+    \item Analysed a bank-marketing dataset using R for applied statistical modelling.
+    \item Organised R scripts, supporting data files, and an arranged Excel dataset.
+    \item Documented statistical-analysis activities and interpreted coursework results.
+  \end{itemize}
+  {\footnotesize\href{https://github.com/adhixit4-crypto/B105-Applied-Statistical-Modelling}{github.com/adhixit4-crypto/B105-Applied-Statistical-Modelling}}\par
+
+  \vspace{6pt}
+  \entrytitle{Personal Portfolio Website}
+  \entrymeta{HTML5 | CSS3 | JavaScript}
+  \begin{itemize}
+    \small\color{BodyGray}
+    \item Built a responsive portfolio presenting education, skills, and technical work.
+    \item Added accessible navigation, project links, and a downloadable CV.
+  \end{itemize}
+  {\footnotesize\href{https://github.com/adhixit4-crypto/My_Portfolio}{github.com/adhixit4-crypto/My\_Portfolio}}\par
+
+  \sectiontitle{Professional Experience}
+  \entrytitle{Delivery / Logistics Associate}
+  \entrymeta{Amazon Delivery Operations | Berlin, Germany | March 2026 - Present}
+  \begin{itemize}
+    \small\color{BodyGray}
+    \item Deliver parcels safely and efficiently while following procedures, schedules, and customer-service standards.
+    \item Plan routes, prioritise tasks, and work independently to complete daily delivery targets.
+    \item Resolve delivery issues and adapt to customer interactions and operational changes.
+    \item Maintain accurate parcel handling and return undelivered items according to station procedures.
+  \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.335\textwidth}
+  \sectiontitle{Education}
+
+  \entrytitle{BSc Computer Science}
+  \entrymeta{GISMA University of Applied Sciences}
+  \bodytext{Berlin, Germany}
+  \bodytext{July 2025 - June 2028}
+
+  \vspace{8pt}
+  \entrytitle{Class XII / Senior Secondary}
+  \entrymeta{Montessori Cambridge School}
+  \bodytext{Pathankot, India}
+
+  \sectiontitle{Technical Skills}
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.25cm}X@{}}
+    \skillrow{Programming}{Python, R, SQL}
+    \skillrow{AI \& Data}{Artificial Intelligence, Machine Learning, Statistical Modelling}
+    \skillrow{Web}{HTML5, CSS3, JavaScript}
+    \skillrow{Databases}{MySQL, PostgreSQL, DBeaver}
+    \skillrow{Tools}{Git, GitHub, Jupyter Notebook, Microsoft Excel}
+    \skillrow{Additional}{Tableau, Power BI, Docker}
+  \end{tabularx}
+
+  \sectiontitle{Relevant Coursework}
+  \begin{itemize}
+    \small\color{BodyGray}
+    \item Data Structures and Algorithms
+    \item Databases and Big Data
+    \item Mathematical Foundations
+    \item Applied Statistical Modelling
+    \item Artificial Intelligence and Machine Learning
+    \item Project Management
+    \item Web and Python Programming
+  \end{itemize}
+\end{minipage}
+
+\vfill
+{\color{RuleGray}\rule{\textwidth}{0.8pt}}\par
+\vspace{3pt}
+{\footnotesize\color{BodyGray}
+  Adhixit Nandan Sharma \hfill Berlin, Germany \hfill Updated September 2026
+}
+
+\end{document}
