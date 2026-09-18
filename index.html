@@ -3,198 +3,359 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Working student portfolio for Adhixit Nandan Sharma.">
-  <title>Adhixit Nandan Sharma | Working Student Portfolio</title>
+  <meta name="description" content="Portfolio of Adhixit Nandan Sharma, a Computer Science student in Berlin focused on software, artificial intelligence, machine learning, and data analysis.">
+  <meta name="author" content="Adhixit Nandan Sharma">
+  <meta name="theme-color" content="#0c2824">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adhixit Nandan Sharma | Software &amp; Data Portfolio">
+  <meta property="og:description" content="Computer Science student building practical software, AI, machine-learning, and data-analysis projects in Berlin.">
+  <title>Adhixit Nandan Sharma | Software &amp; Data Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Portfolio home">
-        <span class="brand-mark">ANS</span>
-        <span>Adhixit Sharma</span>
+      <a class="brand" href="#home" aria-label="Adhixit Nandan Sharma portfolio home">
+        <span class="brand-mark" aria-hidden="true">AN</span>
+        <span class="brand-name">Adhixit Sharma</span>
       </a>
+
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
         <span class="sr-only">Open navigation</span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </button>
+
       <div class="nav-links" id="nav-menu">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#work">Technical Work</a>
-        <a href="#contact">Contact</a>
+        <a data-nav-link href="#home">Home</a>
+        <a data-nav-link href="#projects">Projects</a>
+        <a data-nav-link href="#experience">Experience</a>
+        <a data-nav-link href="#skills">Skills</a>
+        <a data-nav-link href="#education">Education</a>
+        <a data-nav-link href="#contact">Contact</a>
+        <a class="nav-resume" href="assets/Adhixit_Nandan_Sharma_CV.pdf" download>Download CV</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero section-band" id="home">
-      <div class="hero-content">
-        <p class="eyebrow">Working Student Portfolio</p>
-        <h1>Adhixit Nandan Sharma</h1>
-        <p class="hero-copy">
-          I seek challenging opportunities where I can fully use my skills for the success of the organization.
+  <main id="main-content">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span></span> Berlin-based computer science student</p>
+        <h1>
+          Building useful software.
+          <span>Learning from data.</span>
+        </h1>
+        <p class="hero-lead">
+          I am Adhixit Nandan Sharma, an aspiring software and data professional studying BSc Computer Science at GISMA University of Applied Sciences.
         </p>
-        <div class="hero-actions" aria-label="Primary actions">
-          <a class="btn btn-primary" href="#work">View Technical Work</a>
-          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">&rarr;</span></a>
+          <a class="button button-secondary" href="assets/Adhixit_Nandan_Sharma_CV.pdf" download>Download CV</a>
+        </div>
+
+        <ul class="hero-facts" aria-label="Profile highlights">
+          <li>
+            <span class="fact-label">Currently</span>
+            <strong>BSc Computer Science</strong>
+          </li>
+          <li>
+            <span class="fact-label">Focus</span>
+            <strong>Software, AI &amp; data</strong>
+          </li>
+          <li>
+            <span class="fact-label">Location</span>
+            <strong>Berlin, Germany</strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="portrait-column" data-reveal>
+        <div class="portrait-frame">
+          <img
+            class="profile-photo"
+            src="assets/images/adhixit-nandan-sharma.jpg"
+            alt="Portrait of Adhixit Nandan Sharma"
+            width="700"
+            height="900"
+          >
+        </div>
+        <div class="availability-card">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Open to software and data opportunities</span>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Student photo">
-        <img class="student-photo" src="assets/images/student-photo.png" alt="Photo of Adhixit Nandan Sharma">
+    </section>
+
+    <div class="profile-strip" aria-label="Portfolio summary">
+      <div class="section-shell profile-strip-grid">
+        <div>
+          <strong>2025–2028</strong>
+          <span>BSc Computer Science</span>
+        </div>
+        <div>
+          <strong>03</strong>
+          <span>Selected academic projects</span>
+        </div>
+        <div>
+          <strong>AI + Data</strong>
+          <span>Primary technical direction</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="section section-shell about" id="about">
+      <div class="section-kicker" data-reveal>01 / About</div>
+      <div class="about-content" data-reveal>
+        <h2>I combine technical curiosity with dependable, real-world execution.</h2>
+        <div class="about-copy">
+          <p>
+            My academic work spans artificial intelligence, machine learning, applied statistical modelling, Python, SQL, R, and web technologies. I enjoy organising data, testing ideas in notebooks, and presenting findings clearly.
+          </p>
+          <p>
+            Alongside university, my delivery and logistics experience has strengthened my organisation, time management, customer service, problem-solving, and ability to work independently under changing conditions.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">About</p>
-        <h2>Applicant profile</h2>
-      </div>
-      <div class="about-grid">
-        <p>
-          I am Adhixit Nandan Sharma from Kathua, Jammu and Kashmir. This portfolio presents my profile for a working student position, with a focus on communication, basic computer knowledge, problem solving, and readiness to learn.
-        </p>
-        <dl class="details-list" aria-label="Personal details">
+    <section class="section dark-section" id="projects">
+      <div class="section-shell">
+        <div class="section-heading section-heading-light" data-reveal>
           <div>
-            <dt>Date of birth</dt>
-            <dd>02/03/2006</dd>
+            <p class="section-kicker">02 / Selected work</p>
+            <h2>Projects grounded in real coursework and data.</h2>
           </div>
-          <div>
-            <dt>Marital status</dt>
-            <dd>Single</dd>
-          </div>
-          <div>
-            <dt>Gender</dt>
-            <dd>Male</dd>
-          </div>
-          <div>
-            <dt>Address</dt>
-            <dd>VPO &amp; Teh Marheen, Distt. Kathua, Pin 184148, Jammu and Kashmir, India</dd>
-          </div>
-        </dl>
+          <p>Each project links directly to its public GitHub repository for source files, notebooks, scripts, and datasets.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-topline">
+              <span class="project-number">01</span>
+              <span class="project-type">AI &amp; machine learning</span>
+            </div>
+            <h3>Loan Data Analysis</h3>
+            <p>Jupyter Notebook coursework using a loan dataset to support data preparation, analysis, machine-learning activities, and documented findings.</p>
+            <ul class="project-points">
+              <li>Structured a notebook-based analysis workflow</li>
+              <li>Organised source data, project files, and outputs</li>
+              <li>Documented results for academic review</li>
+            </ul>
+            <div class="project-footer">
+              <div class="tag-list" aria-label="Technologies">
+                <span>Python</span>
+                <span>Jupyter</span>
+                <span>Machine Learning</span>
+              </div>
+              <a class="project-link" href="https://github.com/adhixit4-crypto/B104-Artificial-Intelligence-and-Machine-Learning" target="_blank" rel="noopener noreferrer" aria-label="View Loan Data Analysis project on GitHub">View repository <span aria-hidden="true">&nearr;</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-topline">
+              <span class="project-number">02</span>
+              <span class="project-type">Applied statistics</span>
+            </div>
+            <h3>Bank Marketing Analysis</h3>
+            <p>Applied statistical modelling of a bank-marketing dataset using R, with supporting datasets and clearly organised analysis scripts.</p>
+            <ul class="project-points">
+              <li>Analysed marketing data with R</li>
+              <li>Prepared R scripts and an arranged Excel dataset</li>
+              <li>Interpreted and documented coursework results</li>
+            </ul>
+            <div class="project-footer">
+              <div class="tag-list" aria-label="Technologies">
+                <span>R</span>
+                <span>Excel</span>
+                <span>Statistical Modelling</span>
+              </div>
+              <a class="project-link" href="https://github.com/adhixit4-crypto/B105-Applied-Statistical-Modelling" target="_blank" rel="noopener noreferrer" aria-label="View Bank Marketing Analysis project on GitHub">View repository <span aria-hidden="true">&nearr;</span></a>
+            </div>
+          </article>
+
+          <article class="project-card project-card-wide" data-reveal>
+            <div>
+              <div class="project-topline">
+                <span class="project-number">03</span>
+                <span class="project-type">Web development</span>
+              </div>
+              <h3>Personal Portfolio Website</h3>
+            </div>
+            <div>
+              <p>A responsive, accessible portfolio built to present my education, professional experience, technical skills, and project work in one focused experience.</p>
+              <div class="project-footer">
+                <div class="tag-list" aria-label="Technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+                <a class="project-link" href="https://github.com/adhixit4-crypto/My_Portfolio" target="_blank" rel="noopener noreferrer" aria-label="View Personal Portfolio project on GitHub">View repository <span aria-hidden="true">&nearr;</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section section-muted" id="education">
-      <div class="section-heading">
-        <p class="eyebrow">Education</p>
-        <h2>Academic background</h2>
+    <section class="section section-shell experience" id="experience">
+      <div class="section-heading" data-reveal>
+        <div>
+          <p class="section-kicker">03 / Experience</p>
+          <h2>Responsibility beyond the classroom.</h2>
+        </div>
+        <p>Operational experience that strengthens how I organise work, communicate, and respond to practical problems.</p>
       </div>
-      <div class="timeline" aria-label="Education timeline">
-        <article class="timeline-item">
-          <p class="timeline-year">2023</p>
+
+      <article class="experience-card" data-reveal>
+        <div class="experience-meta">
+          <p class="experience-date">March 2026 — Present</p>
+          <p>Berlin, Germany</p>
+        </div>
+        <div class="experience-content">
+          <p class="company">Amazon Delivery Operations</p>
+          <h3>Delivery / Logistics Associate</h3>
+          <ul>
+            <li>Deliver parcels safely and efficiently while following operating procedures, schedules, and customer-service standards.</li>
+            <li>Plan routes, prioritise tasks, and work independently to complete daily delivery targets.</li>
+            <li>Resolve delivery issues and adapt to customer interactions and operational changes.</li>
+            <li>Maintain accurate parcel handling and return undelivered items according to station procedures.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-shell">
+        <div class="section-heading" data-reveal>
           <div>
-            <h3>12th Standard</h3>
-            <p>Montessori Cambridge School Pathankot</p>
-            <strong>71.2%</strong>
+            <p class="section-kicker">04 / Technical toolkit</p>
+            <h2>Skills I am building and applying.</h2>
           </div>
-        </article>
-        <article class="timeline-item">
-          <p class="timeline-year">2021</p>
-          <div>
-            <h3>10th Standard</h3>
-            <p>Montessori Cambridge School Pathankot</p>
-            <strong>81.2%</strong>
-          </div>
-        </article>
+          <p>A developing toolkit across programming, data analysis, databases, visualisation, and modern development workflows.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">01</span>
+            <h3>Programming</h3>
+            <p>Python, R, SQL</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">02</span>
+            <h3>AI &amp; Data</h3>
+            <p>Artificial Intelligence, Machine Learning, Statistical Modelling</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">03</span>
+            <h3>Web</h3>
+            <p>HTML5, CSS3, JavaScript</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">04</span>
+            <h3>Databases</h3>
+            <p>MySQL, PostgreSQL, DBeaver</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">05</span>
+            <h3>Tools</h3>
+            <p>Git, GitHub, Jupyter Notebook, Microsoft Excel</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-index">06</span>
+            <h3>Additional</h3>
+            <p>Tableau, Power BI, Docker</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="skills">
-      <div class="section-heading">
-        <p class="eyebrow">Skills</p>
-        <h2>Technical and professional strengths</h2>
+    <section class="section section-shell education" id="education">
+      <div class="section-heading" data-reveal>
+        <div>
+          <p class="section-kicker">05 / Education</p>
+          <h2>Academic foundation.</h2>
+        </div>
       </div>
-      <div class="skills-grid">
-        <article class="skill-group">
-          <h3>Communication</h3>
-          <div class="tags">
-            <span>Communication skills</span>
-            <span>Clear presentation</span>
-            <span>Team interaction</span>
-          </div>
+
+      <div class="education-grid">
+        <article class="education-card education-card-primary" data-reveal>
+          <p class="education-period">July 2025 — June 2028</p>
+          <h3>BSc Computer Science</h3>
+          <p class="institution">GISMA University of Applied Sciences</p>
+          <p>Berlin, Germany</p>
         </article>
-        <article class="skill-group">
-          <h3>Computer Knowledge</h3>
-          <div class="tags">
-            <span>Basic computer knowledge</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
+        <article class="education-card" data-reveal>
+          <p class="education-period">Senior Secondary Education</p>
+          <h3>Class XII</h3>
+          <p class="institution">Montessori Cambridge School</p>
+          <p>Pathankot, India</p>
         </article>
-        <article class="skill-group">
-          <h3>Problem Solving</h3>
-          <div class="tags">
-            <span>Problem solving abilities</span>
-            <span>Algorithm thinking</span>
-            <span>SQL basics</span>
-          </div>
-        </article>
-        <article class="skill-group">
-          <h3>Languages</h3>
-          <div class="tags">
-            <span>Hindi</span>
-            <span>English</span>
-          </div>
-        </article>
+      </div>
+
+      <div class="coursework" data-reveal>
+        <h3>Relevant coursework</h3>
+        <div class="coursework-list">
+          <span>Data Structures &amp; Algorithms</span>
+          <span>Databases &amp; Big Data</span>
+          <span>Mathematical Foundations</span>
+          <span>Applied Statistical Modelling</span>
+          <span>Artificial Intelligence &amp; Machine Learning</span>
+          <span>Project Management</span>
+          <span>Web &amp; Python Programming</span>
+        </div>
       </div>
     </section>
 
-    <section class="section section-muted" id="work">
-      <div class="section-heading">
-        <p class="eyebrow">Technical Work</p>
-        <h2>Computer science portfolio content</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="assets/images/project-algorithms.svg" alt="Algorithm visualization preview">
-          <div class="project-body">
-            <h3>Algorithm Practice</h3>
-            <p>Designed as evidence of structured thinking through sorting logic, step-by-step comparison, and attention to correctness.</p>
-            <div class="project-meta">Python Concepts</div>
-          </div>
-        </article>
-        <article class="project-card">
-          <img src="assets/images/project-web-form.svg" alt="Web form preview">
-          <div class="project-body">
-            <h3>Responsive Web Interface</h3>
-            <p>Shows ability to structure a webpage with readable sections, responsive layout, accessible labels, and simple browser interaction.</p>
-            <div class="project-meta">HTML, CSS, JavaScript</div>
-          </div>
-        </article>
-        <article class="project-card">
-          <img src="assets/images/project-sql.svg" alt="Database table preview">
-          <div class="project-body">
-            <h3>Profile Data Organization</h3>
-            <p>Shows how personal profile, education, skills, and language data can be organized into clear structured records.</p>
-            <div class="project-meta">SQL Concepts</div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="section-heading">
-        <p class="eyebrow">Contact</p>
-        <h2>Contact details</h2>
-      </div>
-      <div class="contact-list">
-        <a href="mailto:sharmaadhixitnandan@gmail.com">sharmaadhixitnandan@gmail.com</a>
-        <a href="tel:+919541381290">+91 9541381290</a>
-        <span>VPO &amp; Teh Marheen, Distt. Kathua, Jammu and Kashmir, India - 184148</span>
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-panel" data-reveal>
+        <div>
+          <p class="section-kicker section-kicker-light">06 / Contact</p>
+          <h2>Let’s build something useful.</h2>
+          <p>I am open to software, data, and working-student opportunities where I can learn, contribute, and grow.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-accent" href="mailto:sharmaadhixitnandan@gmail.com">Email me <span aria-hidden="true">&rarr;</span></a>
+          <a class="contact-link" href="tel:+4915232707376">+49 152 32707376</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/adhixit-nandan-sharma-62b874394" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">&nearr;</span></a>
+          <a class="contact-link" href="https://github.com/adhixit4-crypto" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&nearr;</span></a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>Working student portfolio for Adhixit Nandan Sharma.</p>
-    <a href="#home">Back to top</a>
+  <footer class="footer section-shell">
+    <p>&copy; <span id="current-year">2026</span> Adhixit Nandan Sharma</p>
+    <p>Computer Science student · Berlin, Germany</p>
+    <a href="#home">Back to top <span aria-hidden="true">&uarr;</span></a>
   </footer>
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Adhixit Nandan Sharma",
+      "jobTitle": "Computer Science Student",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "GISMA University of Applied Sciences"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/adhixit-nandan-sharma-62b874394",
+        "https://github.com/adhixit4-crypto"
+      ],
+      "knowsAbout": ["Python", "R", "SQL", "Machine Learning", "Statistical Modelling", "Web Development"]
+    }
+  </script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

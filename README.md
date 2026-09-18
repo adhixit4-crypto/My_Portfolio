@@ -1,76 +1,58 @@
-# Adhixit Nandan Sharma Portfolio
+# Adhixit Nandan Sharma — Portfolio
 
-This project is a focused working-student portfolio website for Adhixit Nandan Sharma. It is built as a clean single-page website that can be hosted with GitHub Pages.
+A responsive single-page portfolio for Adhixit Nandan Sharma, a BSc Computer Science student at GISMA University of Applied Sciences in Berlin.
 
-## Project Overview
+## Portfolio content
 
-The website presents:
+- professional profile and current focus
+- verified GitHub project links
+- delivery and logistics experience
+- programming, AI, data, database, and web skills
+- education and relevant coursework
+- downloadable CV and professional contact links
 
-- applicant profile and objective
-- student photo
-- education history
-- technical and professional skills
-- computer science work summaries
-- contact details
+## Selected projects
 
-## Website Sections
+1. **Loan Data Analysis** — Python, Jupyter Notebook, and machine-learning coursework
+2. **Bank Marketing Analysis** — R and applied statistical modelling
+3. **Personal Portfolio Website** — HTML5, CSS3, and JavaScript
 
-- **Home**: name, objective, student photo, and quick navigation buttons
-- **About**: profile summary and personal details
-- **Education**: 10th and 12th academic records
-- **Skills**: communication, computer knowledge, problem solving, Hindi, and English
-- **Technical Work**: short summaries of algorithm, web interface, and data organization work
-- **Contact**: email, phone number, and address
+## Technology
 
-## Technologies Used
+- semantic HTML5
+- responsive CSS3
+- lightweight vanilla JavaScript
+- no framework, package dependencies, or build step
 
-- HTML5
-- CSS3
-- JavaScript
-
-## Folder Structure
+## Project structure
 
 ```text
 .
 |-- index.html
 |-- README.md
 `-- assets/
+    |-- Adhixit_Nandan_Sharma_CV.pdf
     |-- css/
     |   `-- style.css
     |-- js/
     |   `-- script.js
     `-- images/
-        |-- project-algorithms.svg
-        |-- project-sql.svg
-        |-- project-web-form.svg
-        `-- student-photo.png
+        `-- adhixit-nandan-sharma.jpg
 ```
 
-## Run Locally
+## Run locally
 
-Open `index.html` directly in a browser.
-
-Or run a local server from the project folder:
+Open `index.html` directly, or run a local HTTP server from this directory:
 
 ```powershell
 python -m http.server 8000
 ```
 
-Then open:
+Then visit `http://localhost:8000`.
 
-```text
-http://localhost:8000
-```
+## Deployment
 
-## GitHub Pages Deployment
-
-1. Create a GitHub repository for this project.
-2. Upload all project files to the repository.
-3. Open the repository on GitHub.
-4. Go to **Settings > Pages**.
-5. Select the `main` branch and root folder.
-6. Save the settings.
-7. Open the published GitHub Pages URL after deployment finishes.
+The project can be published directly with GitHub Pages because all paths are relative and no build step is required.
 
 ## Author
 
